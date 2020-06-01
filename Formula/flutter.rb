@@ -53,9 +53,6 @@ class Flutter < Formula
         rm -rf "$(brew --cache)/flutter--git"
         brew install (--devel) flutter
 
-      If you're located in China, please follow：
-        https://github.com/flutter/flutter/wiki/Using-Flutter-in-China
-
       After installed , please set `PUB_HOSTED_URL` & `FLUTTER_STORAGE_BASE_URL`
 
       You may wish to add the flutter-ROOT install location to your PATH:

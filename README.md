@@ -7,14 +7,14 @@ Homebrew shell for Flutter in flutter/flutter github (https://github.com/flutter
 ### ①、Install stable channel:
 
 ```shell
-$ brew tap MiderWong/flutter
+$ brew tap laromicas/flutter
 $ brew install flutter
 ```
 
 ### ②、Install devel channel:
 
 ```shell
-$ brew tap MiderWong/flutter
+$ brew tap laromicas/flutter
 $ brew install --devel flutter
 ```
 
@@ -54,7 +54,7 @@ $ brew install flutter
 ```shell
 $ brew uninstall --force flutter
 $ rm -rf "$(brew --cache)/flutter--git"
-$ brew untap MiderWong/flutter
+$ brew untap laromicas/flutter
 ```
 
 ## Post-Installation:
@@ -66,10 +66,6 @@ flutter path will be
 dart-sdk path will be
 
   `/usr/local/opt/flutter/bin/cache/dart-sdk`
-
-If you're located in China, please follow：
-
-  https://github.com/flutter/flutter/wiki/Using-Flutter-in-China
 
 After installed , please set `PUB_HOSTED_URL` & `FLUTTER_STORAGE_BASE_URL`
 
